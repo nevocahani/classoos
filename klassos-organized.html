@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>קלאסוס - משחק מילים</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>קלאסוס</h1>
+        <div id="word-display"></div>
+        <input type="text" id="guess-input" maxlength="1" placeholder="הכנסו אות">
+        <button id="submit-btn" onclick="checkGuess()">נחש</button>
+        <div id="feedback"></div>
+        <div id="attempts">ניסיונות נותרים: <span id="attempts-count">10</span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
